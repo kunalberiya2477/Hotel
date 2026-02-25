@@ -305,7 +305,7 @@ include('db.php');
 					<div class="col-md-6 team-img-w3-agile">
 						</div>
 						<div class="col-md-6 team-Info-agileits">
-							<h4>Sarah Connor</h4>
+							<h4>ahgs</h4>
 							<span>Receptionist</span>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>	
 						<div class="social-bnr-agileits footer-icons-agileinfo">
