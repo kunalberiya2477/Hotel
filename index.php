@@ -33,7 +33,7 @@ include('db.php');
 				<ul>
 					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">INFO@SUNRISE.COM</a></li>
 					<li><i class="fa fa-phone" aria-hidden="true"></i>+94 (65)222-44-55</li>	
-					<li class="s-bar">
+					<!-- <li class="s-bar">
 						<div class="search">
 							<input class="search_box" type="checkbox" id="search_box">
 							<label class="icon-search" for="search_box"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></label>
@@ -44,7 +44,7 @@ include('db.php');
 								</form>
 							</div>
 						</div>
-					</li>
+					</li> -->
 				</ul>
 			</div>
 			<div class="clearfix"></div>
