@@ -74,8 +74,8 @@ include('db.php');
 						<ul class="nav navbar-nav menu__list">
 							<li class="menu__item menu__item--current"><a href="" class="menu__link">Home</a></li>
 							<li class="menu__item"><a href="#about" class="menu__link scroll">About</a></li>
-							<li class="menu__item"><a href="#team" class="menu__link scroll">Team</a></li>
-							<li class="menu__item"><a href="#gallery" class="menu__link scroll">Gallery</a></li>
+							<!-- <li class="menu__item"><a href="#team" class="menu__link scroll">Team</a></li> -->
+							<li class="menu__item"><a href="#gal_modal" class="menu__link scroll">Gallery</a></li>
 							<li class="menu__item"><a href="#rooms" class="menu__link scroll">Rooms</a></li>
 							<li class="menu__item"><a href="#contact" class="menu__link scroll">Contact Us</a></li>
 						</ul>
@@ -85,6 +85,112 @@ include('db.php');
 
 		</div>
 	</div>
+
+
+
+<section class="portfolio-w3ls gal_model" id="gallery">
+		 <h3 class="title-w3-agileits title-black-wthree">Our Gallery</h3>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/g1.jpg" class="swipebox"><img src="images/g1.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>SUN RISE</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+						</div>
+				</a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/g2.jpg" class="swipebox"><img src="images/g2.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>SUN RISE</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+						</div>
+				</a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/g3.jpg" class="swipebox"><img src="images/g3.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>SUN RISE</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+						</div>
+				</a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/g4.jpg" class="swipebox"><img src="images/g4.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>SUN RISE</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+						</div>
+				</a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/g5.jpg" class="swipebox"><img src="images/g5.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>SUN RISE</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/g6.jpg" class="swipebox"><img src="images/g6.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>SUN RISE</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+					   </div>
+				   </a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/g6.jpg" class="swipebox"><img src="images/g7.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>SUN RISE</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+					   </div>
+				   </a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/g6.jpg" class="swipebox"><img src="images/g8.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>SUN RISE</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+					   </div>
+				   </a>
+				</div>
+					<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/g9.jpg" class="swipebox"><img src="images/g9.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>SUN RISE</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+						</div>
+				</a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/g10.jpg" class="swipebox"><img src="images/g10.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>SUN RISE</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+						</div>
+				</a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/g4.jpg" class="swipebox"><img src="images/g4.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>SUN RISE</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+						</div>
+				</a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/g2.jpg" class="swipebox"><img src="images/g2.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>SUN RISE</h4>
+							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+						</div>
+				</a>
+				</div>
+				<div class="clearfix"> </div>
+</section></li>
+
+
+
 <!-- //header -->
 		<!-- banner -->
 	<div id="home" class="w3ls-banner">
@@ -264,7 +370,7 @@ include('db.php');
 </div>
 <!--//sevices-->
 <!-- team -->
-<div class="team" id="team">
+<!-- <div class="team" id="team">
 	<div class="container">
 			<h3 class="title-w3-agileits title-black-wthree">Meet Our Team</h3>
 			<div id="horizontalTab">
@@ -358,109 +464,10 @@ include('db.php');
 					</div>
 			</div>
 	</div>
-</div>
+</div> -->
 <!-- //team -->
 <!-- Gallery -->
-<section class="portfolio-w3ls" id="gallery">
-		 <h3 class="title-w3-agileits title-black-wthree">Our Gallery</h3>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g1.jpg" class="swipebox"><img src="images/g1.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g2.jpg" class="swipebox"><img src="images/g2.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g3.jpg" class="swipebox"><img src="images/g3.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g4.jpg" class="swipebox"><img src="images/g4.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g5.jpg" class="swipebox"><img src="images/g5.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g6.jpg" class="swipebox"><img src="images/g6.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-					   </div>
-				   </a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g6.jpg" class="swipebox"><img src="images/g7.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-					   </div>
-				   </a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g6.jpg" class="swipebox"><img src="images/g8.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-					   </div>
-				   </a>
-				</div>
-					<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g9.jpg" class="swipebox"><img src="images/g9.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g10.jpg" class="swipebox"><img src="images/g10.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g4.jpg" class="swipebox"><img src="images/g4.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g2.jpg" class="swipebox"><img src="images/g2.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="clearfix"> </div>
-</section>
+
 <!-- //gallery -->
 	 <!-- rooms & rates -->
       <div class="plans-section" id="rooms">
